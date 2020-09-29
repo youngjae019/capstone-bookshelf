@@ -1,0 +1,31 @@
+user
+- id primary key
+- first name
+- last name
+- email
+- bookshelf foreign key
+
+bookshelf
+- id primary key
+- user foreign key
+- title
+- books foreign key
+
+book
+- id primary key
+- title
+- author foreign key
+- genre
+- description
+
+author
+- id primary key
+- first name
+- last name
+- books (written)
+- genre
+
+genre
+- id primary key
+- genre
+
